@@ -1728,25 +1728,23 @@ textarea.form-control {
     /* Hero section responsiveness for mobile */
     .hero-section {
         height: auto !important;
-        min-height: 850px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
+        min-height: 750px !important;
+        position: relative !important;
+        display: flex !important;
+        flex-direction: column !important;
         justify-content: flex-end !important;
-        align-items: center;
-        padding-top: 120px;
+        align-items: center !important;
+        padding-top: 140px !important;
         padding-bottom: 200px !important;
-        text-align: center;
+        text-align: center !important;
     }
 
     .hero-container-overlay {
         padding: 0 20px !important;
         margin-bottom: 0 !important;
-        position: relative;
-        z-index: 3;
-    }
-        padding: 0 20px;
-        margin-bottom: 24px;
+        position: relative !important;
+        z-index: 3 !important;
+        width: 100% !important;
     }
 
     .hero-content {
