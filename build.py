@@ -36,7 +36,7 @@ SPANIEL_IMG = "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b2
 MOCK_REVIEWS = [
     {
         "stars": 5,
-        "quote": "Adopting our Cavapoo puppy Victoria from ElitePawsworld was the best decision. The staff was incredibly welcoming, and she is so healthy and happy!",
+        "quote": "Adopting our Cavapoo puppy Victoria from Elite Paws World was the best decision. The staff was incredibly welcoming, and she is so healthy and happy!",
         "author": "Sarah Jenkins",
         "breed": "Cavapoo"
     },
@@ -60,7 +60,7 @@ MOCK_REVIEWS = [
     },
     {
         "stars": 5,
-        "quote": "Our Cocker Spaniel puppy has the best temperament! ElitePawsworld team really knows how to raise happy dogs.",
+        "quote": "Our Cocker Spaniel puppy has the best temperament! Elite Paws World team really knows how to raise happy dogs.",
         "author": "Richard Meyer",
         "breed": "Cocker Spaniel"
     }
@@ -128,7 +128,7 @@ TESTIMONIALS = [
         "rating": "★★★★★",
         "badge": "Verified Adoption",
         "date": "Adopted March 2026",
-        "review": "Our Golden Retriever settled in from day one. She arrived healthy, playful, and clearly well socialized. ElitePawsworld kept us updated throughout the process.",
+        "review": "Our Golden Retriever settled in from day one. She arrived healthy, playful, and clearly well socialized. Elite Paws World kept us updated throughout the process.",
         "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80"
     },
     {
@@ -137,7 +137,7 @@ TESTIMONIALS = [
         "rating": "★★★★☆ (4.5)",
         "badge": "Verified Adoption",
         "date": "Adopted February 2026",
-        "review": "Buying a puppy online felt like a big step, but ElitePawsworld made everything easy. The paperwork was complete and our puppy was exactly as described.",
+        "review": "Buying a puppy online felt like a big step, but Elite Paws World made everything easy. The paperwork was complete and our puppy was exactly as described.",
         "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&h=100&q=80"
     },
     {
@@ -173,7 +173,7 @@ TESTIMONIALS = [
         "rating": "★★★★★",
         "badge": "Verified Adoption",
         "date": "Adopted May 2026",
-        "review": "ElitePawsworld exceeded our expectations. Professional service from the first enquiry to delivery. We would recommend them without hesitation.",
+        "review": "Elite Paws World exceeded our expectations. Professional service from the first enquiry to delivery. We would recommend them without hesitation.",
         "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=100&h=100&q=80"
     },
     {
@@ -218,7 +218,7 @@ TESTIMONIALS = [
         "rating": "★★★★★",
         "badge": "Verified Adoption",
         "date": "Adopted February 2026",
-        "review": "Everything was handled professionally. From health checks to transport, ElitePawsworld made the experience stress free.",
+        "review": "Everything was handled professionally. From health checks to transport, Elite Paws World made the experience stress free.",
         "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=100&h=100&q=80"
     },
     {
@@ -302,7 +302,7 @@ def clean_pup_record(pup, index):
 
 # 4. Shared HTML Templates
 def get_head(title_suffix):
-    title = f"ElitePawsworld | {title_suffix}"
+    title = f"Elite Paws World | {title_suffix}"
     return f"""<!DOCTYPE html>
 <html lang="en-IE">
 <head>
@@ -311,7 +311,7 @@ def get_head(title_suffix):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
     <meta name="description" content="Premium luxury dog and cat breeder. Ethically raised, vet certified, and healthy pets for loving families.">
-    <meta name="author" content="ElitePawsworld">
+    <meta name="author" content="Elite Paws World">
     <link rel="icon" href="{LOGO_IMG}" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css?v=30.0">
 </head>
@@ -348,8 +348,8 @@ def get_header(active_page):
         <div class="container header-container">
             <a href="index.html" class="logo-link">
                 <span class="logo-wrapper">
-                    <span class="logo-text">ElitePawsworld</span>
-                    <img src="images/logo-paw.png" alt="ElitePawsworld Logo" class="logo-paw-icon">
+                    <span class="logo-text">Elite Paws World</span>
+                    <img src="images/logo-paw.png" alt="Elite Paws World Logo" class="logo-paw-icon">
                 </span>
             </a>
             
@@ -411,8 +411,8 @@ def get_footer():
             <div>
                 <a href="index.html" class="logo-link" style="text-decoration: none; margin-bottom: var(--spacing-sm); display: inline-flex;">
                     <span class="logo-wrapper">
-                        <span class="logo-text" style="color: var(--color-white); font-size: 32px; line-height: 40px;">ElitePawsworld</span>
-                        <img src="images/logo-paw.png" alt="ElitePawsworld Logo" class="logo-paw-icon" style="width: 24px; margin-top: -8px;">
+                        <span class="logo-text" style="color: var(--color-white); font-size: 32px; line-height: 40px;">Elite Paws World</span>
+                        <img src="images/logo-paw.png" alt="Elite Paws World Logo" class="logo-paw-icon" style="width: 24px; margin-top: -8px;">
                     </span>
                 </a>
                 <p class="footer-desc">Premium luxury dog and cat breeder. Ethically raised, vet certified, and healthy pets for loving families. We treat your pets like our own family, backing our service with decades of experience.</p>
@@ -437,7 +437,7 @@ def get_footer():
             </div>
         </div>
         <div class="container footer-bottom">
-            <p>Copyright &copy; 2026 ElitePawsworld - All Rights Reserved.</p>
+            <p>Copyright &copy; 2026 Elite Paws World - All Rights Reserved.</p>
             <p>Made with love in South Africa 🐾</p>
         </div>
     </footer>
@@ -627,7 +627,7 @@ def build_homepage():
         <div class="container hero-container-overlay">
             <div class="hero-content">
                 <div class="hero-tagline">Family-Owned & Raised with Love</div>
-                <h1 class="hero-title">Welcome to ElitePawsworld</h1>
+                <h1 class="hero-title">Welcome to Elite paws world</h1>
                 <p class="hero-desc">We are premier breeders offering ethically raised, vet-certified puppies and kittens for loving families. Discover your perfect, healthy new family member raised with dedicated care and affection.</p>
                 <div class="hero-buttons" style="display: flex; flex-wrap: wrap; gap: 16px;">
                     <a href="available-puppies.html" class="btn-primary">View Puppies</a>
@@ -682,7 +682,7 @@ def build_homepage():
         <div class="container">
             <div class="about-us-header">
                 <span class="about-line"></span>
-                <h2 class="about-us-title">About ElitePawsworld</h2>
+                <h2 class="about-us-title">About Elite Paws World</h2>
                 <span class="about-line"></span>
             </div>
             
@@ -693,7 +693,7 @@ def build_homepage():
                         <img src="images/about-1.jpg" alt="Warm & Welcoming" class="about-img">
                     </div>
                     <h3 class="about-col-title">Warm & Welcoming</h3>
-                    <p class="about-col-desc">Welcome to ElitePawsworld, where healthy puppies and kittens find loving homes. We are dedicated to raising happy, well cared for companions through responsible breeding, expert care, and plenty of love. From your first enquiry to bringing your new family member home, our team is here to make the experience simple, transparent, and memorable.</p>
+                    <p class="about-col-desc">Welcome to Elite Paws World, where healthy puppies and kittens find loving homes. We are dedicated to raising happy, well cared for companions through responsible breeding, expert care, and plenty of love. From your first enquiry to bringing your new family member home, our team is here to make the experience simple, transparent, and memorable.</p>
                 </div>
                 
                 <!-- Column 2 -->
@@ -702,7 +702,7 @@ def build_homepage():
                         <img src="images/about-2.jpg" alt="Premium & Trustworthy" class="about-img">
                     </div>
                     <h3 class="about-col-title">Premium & Trustworthy</h3>
-                    <p class="about-col-desc">At ElitePawsworld, we believe every family deserves a healthy, happy companion. Our puppies and kittens are ethically raised in a clean, nurturing environment, receive regular veterinary care, and are well socialized before joining their forever homes. We are committed to quality, responsible breeding, and building lasting relationships with every family we serve.</p>
+                    <p class="about-col-desc">At Elite Paws World, we believe every family deserves a healthy, happy companion. Our puppies and kittens are ethically raised in a clean, nurturing environment, receive regular veterinary care, and are well socialized before joining their forever homes. We are committed to quality, responsible breeding, and building lasting relationships with every family we serve.</p>
                 </div>
                 
                 <!-- Column 3 -->
@@ -711,7 +711,7 @@ def build_homepage():
                         <img src="images/about-3.jpg" alt="Professional & Confidence Building" class="about-img">
                     </div>
                     <h3 class="about-col-title">Professional & Confidence Building</h3>
-                    <p class="about-col-desc">Your confidence starts with our commitment to responsible breeding and exceptional care. Every puppy and kitten at ElitePawsworld receives routine health checks, age appropriate vaccinations, and daily socialization to ensure they are ready for life with their new family. We focus on raising healthy, confident companions while providing honest guidance and support throughout your adoption journey.</p>
+                    <p class="about-col-desc">Your confidence starts with our commitment to responsible breeding and exceptional care. Every puppy and kitten at Elite Paws World receives routine health checks, age appropriate vaccinations, and daily socialization to ensure they are ready for life with their new family. We focus on raising healthy, confident companions while providing honest guidance and support throughout your adoption journey.</p>
                 </div>
             </div>
         </div>
@@ -753,11 +753,11 @@ def build_homepage():
         </div>
     </section>
 
-    <!-- 5. Why Choose ElitePawsworld -->
+    <!-- 5. Why Choose Elite Paws World -->
     <section class="section-padding reveal" style="background-color: var(--color-white);">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose ElitePawsworld</h2>
+                <h2 class="section-title">Why Choose Elite Paws World</h2>
                 <p class="section-subtitle">Redefining pet breeding, care, and comfort with a touch of luxury.</p>
             </div>
             
@@ -876,7 +876,7 @@ def build_homepage():
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
-                <p class="section-subtitle">Answers to common questions about adopting from ElitePawsworld.</p>
+                <p class="section-subtitle">Answers to common questions about adopting from Elite Paws World.</p>
             </div>
             <div class="faq-list">
                 <div class="faq-item">
@@ -946,7 +946,7 @@ def build_homepage():
                         Message us on WhatsApp
                     </a>
                     
-                    <div style="font-family: var(--font-headings); font-size: 1.6rem; font-weight: normal; color: var(--color-headings); letter-spacing: 0.5px;">ElitePawsworld</div>
+                    <div style="font-family: var(--font-headings); font-size: 1.6rem; font-weight: normal; color: var(--color-headings); letter-spacing: 0.5px;">Elite Paws World</div>
                 </div>
 
                 <!-- Right Column (Contact Form) -->
@@ -1250,7 +1250,7 @@ def build_reviews_page():
     <section class="section-padding" style="background-color: var(--color-bg-card);">
         <div class="container" style="text-align: center;">
             <h1 class="section-title">Pawsome Reviews!</h1>
-            <p class="section-subtitle">See what our happy families say about their experiences adopting from ElitePawsworld.</p>
+            <p class="section-subtitle">See what our happy families say about their experiences adopting from Elite Paws World.</p>
         </div>
     </section>
 
@@ -1328,7 +1328,7 @@ def build_contact_page():
                         Message us on WhatsApp
                     </a>
                     
-                    <div style="font-family: var(--font-headings); font-size: 1.6rem; font-weight: normal; color: var(--color-headings); letter-spacing: 0.5px;">ElitePawsworld</div>
+                    <div style="font-family: var(--font-headings); font-size: 1.6rem; font-weight: normal; color: var(--color-headings); letter-spacing: 0.5px;">Elite Paws World</div>
                 </div>
 
                 <!-- Right Column (Contact Form) -->

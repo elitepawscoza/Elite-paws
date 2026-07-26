@@ -296,6 +296,31 @@ document.addEventListener('DOMContentLoaded', () => {
             threshold: 0.1,
             rootMargin: "0px 0px -50px 0px"
         });
-        revealElements.forEach(el => observer.observe(el));
-    }
+    // 10. Contact Form Button Color Change on Input
+    const contactForms = document.querySelectorAll('form');
+    contactForms.forEach(form => {
+        const sendBtn = form.querySelector('.contact-send-btn');
+        if (sendBtn) {
+            const checkFields = () => {
+                const inputs = form.querySelectorAll('input, textarea');
+                let hasValue = false;
+                inputs.forEach(input => {
+                    if (input.value && input.value.trim().length > 0) {
+                        hasValue = true;
+                    }
+                });
+                if (hasValue) {
+                    sendBtn.classList.add('active');
+                    sendBtn.style.backgroundColor = 'var(--color-primary)';
+                } else {
+                    sendBtn.classList.remove('active');
+                    sendBtn.style.backgroundColor = '#6B7280';
+                }
+            };
+
+            form.addEventListener('input', checkFields);
+            form.addEventListener('change', checkFields);
+            checkFields();
+        }
+    });
 });

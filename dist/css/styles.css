@@ -466,6 +466,21 @@ ul {
     transform: translateY(-2px);
 }
 
+/* Contact Send Button Dynamic Styling */
+.contact-send-btn {
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease !important;
+}
+
+.contact-send-btn.active {
+    background-color: var(--color-primary) !important;
+    box-shadow: 0 4px 14px rgba(139, 94, 60, 0.25) !important;
+}
+
+.contact-send-btn.active:hover {
+    background-color: var(--color-primary-hover) !important;
+    transform: translateY(-2px) !important;
+}
+
 /* Hamburger toggle */
 .hamburger {
     display: none;
