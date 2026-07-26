@@ -1,0 +1,1594 @@
+{
+  "australian-shepherd": {
+    "breed_name": "Australian Shepherd",
+    "page_title": "Australian Shepherd Puppies | Glamour Paws Kennel",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Cate",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Maggie",
+      "Name: Finn",
+      "Gender: Male",
+      "Name: Tyson",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Maggie",
+        "alt": "An adorable blue merle Australian Shepherd puppy with blue eyes.",
+        "src": "images/australian_shepherd.png",
+        "gender": "Female"
+      }
+    ]
+  },
+  "yorkshire-terrier": {
+    "breed_name": "Yorkshire Terrier",
+    "page_title": "Yorkie Puppies for Sale | Glamour Paws Kennel",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Gigi",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Lisa",
+      "Name: Belle",
+      "Name: Keke",
+      "Name: Weston",
+      "Gender: Male",
+      "Name: Allen",
+      "Name: Arnold",
+      "Name: Des",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Bella",
+        "alt": "Tiny Yorkshire Terrier puppy sitting on a fluffy rug in front of a blue couch.",
+        "src": "images/bella_yorkie.png",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable small puppy sitting on a soft gray surface.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Yorkie%20(Lisa).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable small Yorkshire Terrier puppy sitting on a woven wicker chair.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Yorkie%20(Belle).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable tiny puppy with a blue polka dot bow tie sitting on green grass.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Yorkie%20(Keke).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable small black and brown puppy sitting on green surface with flowers.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Yorkie%20(Arnold).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A small, fluffy black and brown puppy sitting on a white fabric.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Yorkie%20(Allen).JPG/:/cr=t:9.89%25,l:0%25,w:100%25,h:80.22%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Small, fluffy black and tan puppy standing on a gray surface.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Yorkie%20(Weston).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Tiny Yorkshire Terrier puppy wearing a lace collar, sitting in a cozy basket.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Yorkie%20(Amanda).JPG/:/cr=t:0%25,l:16.72%25,w:66.56%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      }
+    ]
+  },
+  "rottweiler": {
+    "breed_name": "Rottweiler",
+    "page_title": "Rottweiler Puppies for Sale | Glamour Paws Kennel",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Sophie",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Caro",
+      "Name: Ray",
+      "Gender: Male",
+      "Name: Jake",
+      "Name: Marco",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Bruno",
+        "alt": "A young Rottweiler puppy standing on a blanket outdoors with a ball in the background.",
+        "src": "images/jake_rottweiler.png",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A cute Rottweiler puppy standing on green grass.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Rottweiler%20(Caro).JPG/:/cr=t:10%25,l:0%25,w:100%25,h:80%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable Rottweiler puppy sitting beside an ornate mirror.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Rottweiler%20(Jake).JPG/:/cr=t:10%25,l:0%25,w:100%25,h:80%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable Rottweiler puppy sitting on a couch beside a striped pillow.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Rottweiler%20(Ray).JPG/:/cr=t:10%25,l:0%25,w:100%25,h:80%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable Rottweiler puppy with expressive eyes and black-and-tan fur.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Rottweiler%20(Marco).JPG/:/cr=t:6.37%25,l:0%25,w:100%25,h:61.94%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      }
+    ]
+  },
+  "chihuahua": {
+    "breed_name": "Chihuahua",
+    "page_title": "Chihuahua | Glamour Paws Kennel",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Lola",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Zoey",
+      "Name: Zandy",
+      "Name: Theo",
+      "Gender: Male",
+      "Name: Tori",
+      "Name: Jack",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Mochi",
+        "alt": "A cute Chihuahua puppy sitting inside a small woven basket.",
+        "src": "images/theo_chihuahua.png",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Two cute Chihuahua puppies wearing pink sweaters sitting on a white furry rug.",
+        "src": "images/chihuahua_2.jpg",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A cute tan Chihuahua puppy sitting on a green chair looking forward.",
+        "src": "images/chihuahua_3.jpg",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A tiny Chihuahua puppy running happily on green grass outdoors.",
+        "src": "images/chihuahua_4.jpg",
+        "gender": "Male"
+      }
+    ]
+  },
+  "dachshund": {
+    "breed_name": "Dachshund",
+    "page_title": "Buy Dachshund Puppies | Exotic House of Pets",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Maria",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Nash",
+      "Name: Nala",
+      "Name: Stella",
+      "Name: Lucy",
+      "Name: Milo",
+      "Gender: Male",
+      "Name: Toby",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Winston",
+        "alt": "A cute dapple dachshund puppy standing on a light gray couch.",
+        "src": "images/flora_dachshund.png",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A cute dapple dachshund puppy sitting on a pink couch.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_4133.JPG/:/cr=t:8.48%25,l:0%25,w:100%25,h:83.04%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable brown and white puppy sitting on a beige couch.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_3208.jpg/:/cr=t:18.63%25,l:0%25,w:100%25,h:81.37%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A small, spotted dachshund puppy sitting on a wooden floor.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/mini..jpg/:/cr=t:2.83%25,l:2.7%25,w:89.94%25,h:94.34%25/rs=w:388,h:388,cg:true,m",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A cute black and tan dachshund puppy sitting on a floral blanket.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_3217.jpg/:/cr=t:15.06%25,l:0%25,w:100%25,h:83.49%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Dachshund%20(Riq).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Dachshund(Flora).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      }
+    ]
+  },
+  "great-dane": {
+    "breed_name": "Great Dane",
+    "page_title": "Great Dane Puppies for Sale | Glamour Paws Kennel",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Mabel",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Arya",
+      "Name: Gracie",
+      "Name: Rosie",
+      "Name: Rocky",
+      "Gender: Male",
+      "Name: Moose",
+      "Name: Apollo",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "A Great Dane puppy with a spotted coat sitting on a colorful blanket outdoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/14D27ACE-99D8-4D07-99D8-031335560E74.JPG/:/cr=t:15.57%25,l:0%25,w:100%25,h:80%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Spotted Great Dane puppy standing on a black surface.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/great..jpg/:/cr=t:0%25,l:6.91%25,w:83.7%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Black Great Dane puppy standing on grass near colorful play tent.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_2264.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A gray puppy sitting on a green blanket surrounded by toys and other puppies.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/68F1956B-7134-4EE1-8CCB-C69AF3571A09.JPG/:/cr=t:0.26%25,l:0%25,w:100%25,h:80%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A white puppy with blue eyes sitting on a patterned blanket on a brown leather couch.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/7BC62A9C-66A5-4C9E-AD23-54A1FEFABB08.JPG/:/cr=t:7.91%25,l:0%25,w:100%25,h:80%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A black and white puppy with big paws lying on a blanket on a couch.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/EC240F0C-B63A-458E-8D88-B78AD22F3F2B.JPG/:/cr=t:14.52%25,l:0%25,w:100%25,h:80%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Cute Great Dane puppy resting on a soft blanket indoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/B4925F76-72BE-46BB-ACED-420C54BBCB2B.JPG/:/cr=t:5.13%25,l:0%25,w:100%25,h:80%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      }
+    ]
+  },
+  "doberman-pinscher": {
+    "breed_name": "Doberman Pinscher",
+    "page_title": "Buy Doberman Pinscher Puppies | Glamour Paws Kennel",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Ella",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Mavis",
+      "Name: Layla",
+      "Name: Tank",
+      "Gender: Male",
+      "Name: Sammy",
+      "Name: Thor",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "Doberman puppy sitting indoors near a red flower.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Doberman%20Pinscher%20(Destiny).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A Doberman puppy sitting on a checkered rug with an orange flower nearby.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Doberman%20Pinscher%20(Sally).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A Doberman puppy sitting on a striped rug with a yellow flower behind it.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Doberman%20Pinscher%20(Sierra).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A Doberman dog stands alert on carpeted stairs indoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Doberman%20Pinscher%20(Rocky).JPG/:/cr=t:9.97%25,l:0%25,w:100%25,h:80.06%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A young Doberman puppy sitting next to a basket of yellow flowers indoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Doberman%20Pinscher%20(Roger).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Doberman puppy with blue eyes sitting on a tennis court wearing a harness.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Doberman%20Pinscher%20(Thor).JPG/:/cr=t:19.24%25,l:0%25,w:100%25,h:80.06%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      }
+    ]
+  },
+  "cavapoo": {
+    "breed_name": "Cavapoo",
+    "page_title": "Cavapoo | Glamour Paws Kennel",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Fiona",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Ella",
+      "Name: Elsa",
+      "Name: Connie",
+      "Name: Duke",
+      "Gender: Male",
+      "Name: Bentley",
+      "Name: Jack",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "An adorable ginger and white Cavapoo puppy standing on the grass outdoors.",
+        "src": "images/cavapoo_1.jpg",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A close-up portrait of a curly-haired Cavapoo puppy with expressive dark eyes.",
+        "src": "images/cavapoo_2.jpg",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A cute fluffy brown Cavapoo puppy wearing a bright blue bow tie.",
+        "src": "images/cavapoo_3.jpg",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "An adorable brown Cavapoo puppy sitting on green grass next to a wooden beam.",
+        "src": "images/cavapoo_4.jpg",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "An adorable ginger and white Cavapoo puppy standing on the grass outdoors.",
+        "src": "images/cavapoo_1.jpg",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A close-up portrait of a curly-haired Cavapoo puppy with expressive dark eyes.",
+        "src": "images/cavapoo_2.jpg",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A cute fluffy brown Cavapoo puppy wearing a bright blue bow tie.",
+        "src": "images/cavapoo_3.jpg",
+        "gender": "Male"
+      }
+    ]
+  },
+  "cavalier-king-charles-spaniel": {
+    "breed_name": "Cavalier King Charles Spaniel",
+    "page_title": "Cavalier King Charles Spaniel | Exotic House of Pets",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Debbie",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Zelda",
+      "Name: Clara",
+      "Name: Ace",
+      "Gender: Male",
+      "Name: Marley",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "A small tricolor Cavalier King Charles Spaniel puppy sitting on a striped floor.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Cavalier%20King%20Charles%20Spaniel%20(Classy).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Cute Cavalier King Charles Spaniel puppy sitting by plants.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Cavalier%20King%20Charles%20Spaniel%20(Grace).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A small brown and white puppy standing on green grass outdoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Cavalier%20King%20Charles%20Spaniel%20(Sabrina).jpg/:/cr=t:0.68%25,l:0%25,w:100%25,h:98.63%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable tricolor Cavalier King Charles Spaniel puppy sitting outdoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20King%20Charles%20Cavalier%20Spaniel%20(Larson).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable brown and white puppy sitting on grass with a pumpkin in the background.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_6128.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      }
+    ]
+  },
+  "bulldog": {
+    "breed_name": "Bulldog",
+    "page_title": "English Bulldog",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Lizzie",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Frida",
+      "Name: Dora",
+      "Name: Jax",
+      "Gender: Male",
+      "Name: Murphy",
+      "Name: Rocco",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "A cute tricolor bulldog puppy standing on a fluffy rug outdoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/06B4683A-8A95-4BE7-AB92-2FC7DA1F7273.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable bulldog puppy sitting on a fluffy white rug outdoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/544CC937-E1F8-4755-9845-01F1DE9F6302.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable wrinkled English Bulldog puppy with a patch over one eye.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/985E7BB1-3C9B-4E87-90FA-801F82B515B0.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A brown and white bulldog puppy standing on a fluffy surface outdoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/BEE42612-519F-4B0C-95F7-0165CBA5A0D7.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A white bulldog puppy standing outdoors on a soft white blanket.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/CD126E86-BEBE-44B6-94F2-3752C6C0963A.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable bulldog puppy sitting on a soft blanket outdoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/53327ECA-E953-471A-B365-76FE7B9076A6.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      }
+    ]
+  },
+  "maltese": {
+    "breed_name": "Maltese",
+    "page_title": "Maltese Puppies for Sale | Glamour Paws Kennel",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Rosa",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Vija",
+      "Name: Joan",
+      "Name: Baxter",
+      "Gender: Male",
+      "Name: Bear",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "Small white dog wearing a pink dress on green grass.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Maltese%20(Emma).JPG/:/cr=t:1.09%25,l:0%25,w:100%25,h:97.81%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Fluffy white puppy sitting on green grass with colorful flowers in the background.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Maltese%20(Pearl).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Small white dog wearing a pink jacket indoors on wooden floor.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Maltese(Judy).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Fluffy white puppy sitting on green grass with colorful flowers in the background.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Maltese%20(Coby).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A fluffy white puppy sitting against a black background with colorful balls.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Maltese%20(Joel).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_3221.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      }
+    ]
+  },
+  "pomeranian": {
+    "breed_name": "Pomeranian",
+    "page_title": "Pomeranian",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Holly",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Cecilia",
+      "Name: Ivy",
+      "Name: Zeus",
+      "Gender: Male",
+      "Name: Cash",
+      "Welcome to Glamour Paws Kennel Kennel",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Pomeranian%20(Gloria).JPG/:/cr=t:0%25,l:16.72%25,w:66.56%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/blob-506a625.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/pom.jpg/:/cr=t:18.75%25,l:17.48%25,w:58.25%25,h:62.5%25/rs=w:388,h:388,cg:true,m",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Pomeranian%20(Kali).JPG/:/cr=t:8.75%25,l:0%25,w:100%25,h:82.5%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_5685.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      }
+    ]
+  },
+  "miniature-schnauzer": {
+    "breed_name": "Miniature Schnauzer",
+    "page_title": "Miniature Schnauzer | Glamour Paws Kennel",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Lucina",
+      "Shipping: Available",
+      "Status: Available",
+      "Breed: Standard Schnauzer",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Heidi",
+      "Name: Katie",
+      "Name: Gwen",
+      "Name: Elijah",
+      "Gender: Male",
+      "Name: Simba",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Miniature%20Schnauzer%20(Joella).JPG/:/cr=t:2.43%25,l:0%25,w:100%25,h:80%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Miniature%20Schnauzer%20(Lilly).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Miniature%20Schnauzer%20(Maya).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Miniature%20Schnazuer%20(Lanie).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/schnauzer.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Miniature%20Schnauzer%20(Blade).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      }
+    ]
+  },
+  "cocker-spaniel": {
+    "breed_name": "Cocker Spaniel",
+    "page_title": "Cocker Spaniel",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Mavel",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Gender: Male",
+      "Name: Enzo",
+      "Name: Amanda",
+      "Name: Malla",
+      "Name: Owen",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "Cute golden and white puppy sitting attentively.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_2157.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A brown puppy standing on a white chair with paws on a wooden table.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Cocker%20Spaniel%20(Otto).JPG/:/cr=t:15.49%25,l:0%25,w:100%25,h:84.51%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Fluffy speckled puppy standing on wooden surface outdoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Cocker%20Spaniel%20(George).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Cute multicolored puppy lying down and looking at the camera.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_2152.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable brown and tan puppy sitting on a light surface.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_2166.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Small brown puppy with white chest.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Owen.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
+        "gender": "Unknown"
+      }
+    ]
+  },
+  "golden-retriever": {
+    "breed_name": "Golden Retriever",
+    "page_title": "Golden Retriever | Glamour Paws Kennel",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Pitou",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Alvida",
+      "Name: Mocha",
+      "Name: Sonic",
+      "Gender: Male",
+      "Name: Nestle",
+      "Name: Sparky",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Mocha",
+        "alt": "An adorable Golden Retriever puppy sitting down.",
+        "src": "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=400&h=400&q=80",
+        "gender": "Female"
+      }
+    ]
+  },
+  "labrador-retriever": {
+    "breed_name": "Labrador Retriever",
+    "page_title": "Labrador Retrievers for Sale | Glamour Paws Kennel",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Fanny",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Clover",
+      "Name: Macy",
+      "Name: Shasha",
+      "Name: Kona",
+      "Name: Andri",
+      "Gender: Male",
+      "Name: Eskimo",
+      "Name: Ivory",
+      "Name: Galaxy",
+      "Name: Iceberg",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "Adorable gray puppy sitting on green grass, looking curiously at the camera.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_5626-31233a2.JPG/:/rs=w:388,h:388,cg:true,m/cr=w:388,h:388",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable light brown puppy sitting on wooden floor against gray wall.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_5648-6bb7c62.JPG/:/rs=w:388,h:388,cg:true,m/cr=w:388,h:388",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A curious white Labrador puppy sitting on grass.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/9bb00239-3605-436e-af3d-513c8704203f-3a37472.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:86.96%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable chocolate Labrador puppy with striking blue eyes standing on a white blanket outdoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_2240.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable black Labrador puppy sitting with tongue out on a porch.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/7a54ac82-c054-4c02-80b5-8864066bbe62-05fae30.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable white Labrador puppy sitting on a couch beside a patterned pillow.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/ec9918f3-1945-4c4c-8d74-790d4ff1762e.JPG/:/cr=t:10%25,l:0%25,w:100%25,h:80%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Cute black Labrador puppy sitting on wooden deck, looking at camera.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_5638.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable light brown puppy sitting on a yellow cloth.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_2259.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Cute chocolate Labrador puppy sticking out its tongue outdoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/40e5922c-5835-4878-84be-60243b4fd41c.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A silver Labrador puppy sitting on green grass looking up.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_2249.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      }
+    ]
+  },
+  "german-shepherd": {
+    "breed_name": "German Shepherd",
+    "page_title": "Buy German Shepherd Puppies | Glamour Paws Kennel",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Anita",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Asher",
+      "Name: Hugo",
+      "Gender: Male",
+      "Name: Ralph",
+      "Name: Watts",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "Adorable German Shepherd puppy lying on green grass.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20German%20Shepherd%20(Sassi).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable German Shepherd puppy sitting on grass outdoors.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20German%20Shepherd%20(Billy).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "White puppy sitting on grass with a leash and harness.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20German%20Shepherd%20(Emelyn).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable German Shepherd puppy sitting on grass, licking its nose.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20German%20Shepherd%20(Gaby).JPG/:/cr=t:6.42%25,l:0%25,w:100%25,h:87.17%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable German Shepherd puppy sitting on green grass.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20German%20Shepherd%20(Mylo).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      }
+    ]
+  },
+  "siberian-husky": {
+    "breed_name": "Siberian Husky",
+    "page_title": "Siberian Husky",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Claire",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Melvin",
+      "Name: Nova",
+      "Name: Gabby",
+      "Gender: Male",
+      "Name: Leo",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "Adorable husky puppy with striking blue eyes sitting on grass.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Siberian%20Husky%20(Gracie).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A young Siberian Husky puppy standing on green grass.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Siberian%20Husky%20(Claire).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Nova.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Alert Siberian Husky puppy with striking blue eyes stands on green grass.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Siberian%20Husky%20(Gabby).JPG/:/rs=w:388,h:388,cg:true,m/cr=w:388,h:388",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "A young Siberian Husky puppy with striking blue eyes sitting on green grass.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Siberian%20Husky%20(Melvin).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      }
+    ]
+  },
+  "shih-tzu": {
+    "breed_name": "Shih Tzu",
+    "page_title": "Shih Tzu",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Dex",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Male",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Cannon",
+      "Name: Renee",
+      "Gender: Female",
+      "Name: Rose",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "Fluffy brown and white puppy standing on grass with colorful star decorations.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Dex.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,h:600,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable fluffy puppy standing on a plaid blanket next to a stuffed animal.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Shih%20Tzu%20(Cannon).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,h:600,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable fluffy puppy with brown and white fur sitting on a plaid blanket.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Shih%20Tzu%20(Renee).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,h:600,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Small fluffy puppy standing on a plaid blanket.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Shih%20Tzu%20(Rose).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,h:600,cg:true",
+        "gender": "Female"
+      }
+    ]
+  },
+  "pug": {
+    "breed_name": "Pug",
+    "page_title": "Pug",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Penny",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Ellie",
+      "Name: Muffin",
+      "Gender: Male",
+      "Name: Bear",
+      "Gender:Male",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Pug%20(Kara)-c02894d.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,h:600,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Pug%20(Ashley).JPG/:/cr=t:0%25,l:7.43%25,w:85.14%25,h:100%25/rs=w:600,h:600,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Pug%20(Brenda).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,h:600,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Pug%20(Mabel)-d878fc0.JPG/:/cr=t:1.74%25,l:0%25,w:100%25,h:96.51%25/rs=w:600,h:600,cg:true",
+        "gender": "Female"
+      }
+    ]
+  },
+  "poodle": {
+    "breed_name": "Poodle",
+    "page_title": "Poodle",
+    "texts": [
+      "Heavenly Paws Place",
+      "Available BreedsAustralian ShepherdYorkie RottweilerChihuahuaDachshundGreat DaneDoberman PinscherCavapooCavalier King Charles English BulldogMaltesePomeranianMiniature SchnauzerCocker SpanielGolden RetrieverLabrador RetrieverGerman ShepherdSiberian HuskyShih TzuPugPoodle",
+      "Name: Tiara",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included",
+      "Vaccinations: Up to Date",
+      "Buy me",
+      "Name: Blossom",
+      "Name: Felipe",
+      "Gender: Male",
+      "Name: Rufus",
+      "Gender:Male",
+      "Name: Vera",
+      "Gender:Female",
+      "Name: Gordy",
+      "We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data."
+    ],
+    "puppies": [
+      {
+        "name": "Unknown",
+        "alt": "Curly-haired puppy sitting on a blue fabric with green leaves nearby.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Poodle%20(Peace).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Curly-haired beige puppy standing on a textured surface.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/IMG_3382.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Adorable curly-haired puppy standing on a pebble-covered surface.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Male%20Poodle%20(Brandon).JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Male"
+      },
+      {
+        "name": "Unknown",
+        "alt": "Curly white and beige puppy sitting outdoors on a wooden surface.",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Female%20Poodle%20(Bella).PNG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,h:388,cg:true",
+        "gender": "Female"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Poodle.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
+        "gender": "Unknown"
+      },
+      {
+        "name": "Unknown",
+        "alt": "",
+        "src": "https://img1.wsimg.com/isteam/ip/30641560-db5b-4fa9-a2aa-8dbd04b24a5c/Gordy.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:388,cg:true",
+        "gender": "Unknown"
+      }
+    ]
+  },
+  "british-shorthair": {
+    "breed_name": "British Shorthair",
+    "page_title": "British Shorthair Kittens for Sale | Elite Paws",
+    "texts": [
+      "Elite Paws",
+      "Available Breeds British Shorthair Ragdoll Maine Coon",
+      "Name: Oliver",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Male",
+      "Parents: Healthy and Vet Certified",
+      "Vaccinations: Up to Date",
+      "Registration Documents Included",
+      "Buy me"
+    ],
+    "puppies": [
+      {
+        "name": "Oliver",
+        "alt": "A gorgeous blue British Shorthair kitten sitting upright with amber eyes.",
+        "src": "images/oliver_british_shorthair.png",
+        "gender": "Male"
+      },
+      {
+        "name": "Cleo",
+        "alt": "An adorable silver tabby British Shorthair kitten playing with a ball.",
+        "src": "images/british_shorthair_tabby.png",
+        "gender": "Female"
+      },
+      {
+        "name": "Winston",
+        "alt": "Three adorable British Shorthair kittens being held in hands.",
+        "src": "images/british_shorthair_trio.jpg",
+        "gender": "Male"
+      }
+    ]
+  },
+  "ragdoll": {
+    "breed_name": "Ragdoll",
+    "page_title": "Ragdoll Kittens for Sale | Elite Paws",
+    "texts": [
+      "Elite Paws",
+      "Available Breeds British Shorthair Ragdoll Maine Coon",
+      "Name: Bella",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Female",
+      "Parents: Healthy and Vet Certified",
+      "Vaccinations: Up to Date",
+      "Registration Documents Included",
+      "Buy me"
+    ],
+    "puppies": [
+      {
+        "name": "Willow",
+        "alt": "A fluffy colorpoint Ragdoll kitten with striking blue eyes sitting on carpet.",
+        "src": "images/bella_ragdoll.png",
+        "gender": "Female"
+      },
+      {
+        "name": "Milo",
+        "alt": "A sweet bi-color Ragdoll kitten looking directly into the camera.",
+        "src": "images/ragdoll_bicolor.png",
+        "gender": "Male"
+      }
+    ]
+  },
+  "maine-coon": {
+    "breed_name": "Maine Coon",
+    "page_title": "Maine Coon Kittens for Sale | Elite Paws",
+    "texts": [
+      "Elite Paws",
+      "Available Breeds British Shorthair Ragdoll Maine Coon",
+      "Name: Leo",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Male",
+      "Parents: Healthy and Vet Certified",
+      "Vaccinations: Up to Date",
+      "Registration Documents Included",
+      "Buy me"
+    ],
+    "puppies": [
+      {
+        "name": "Atlas",
+        "alt": "A large, fluffy brown tabby Maine Coon kitten lying on a wooden deck.",
+        "src": "images/leo_maine_coon.png",
+        "gender": "Male"
+      },
+      {
+        "name": "Lily",
+        "alt": "A beautiful white Maine Coon kitten with large ears and blue eyes.",
+        "src": "images/maine_coon_white.png",
+        "gender": "Female"
+      }
+    ]
+  },
+  "bengal": {
+    "breed_name": "Bengal",
+    "page_title": "Bengal Kittens for Sale | Elite Paws",
+    "texts": [
+      "Elite Paws",
+      "Available Breeds British Shorthair Ragdoll Maine Coon Bengal",
+      "Name: Simba",
+      "Shipping: Available",
+      "Status: Available",
+      "Gender: Male",
+      "Parents: Healthy and Vet Certified",
+      "Vaccinations: Up to Date",
+      "Registration Documents Included",
+      "Buy me"
+    ],
+    "puppies": [
+      {
+        "name": "Zara",
+        "alt": "A gorgeous spotted Bengal kitten looking forward with green eyes.",
+        "src": "images/simba_bengal.png",
+        "gender": "Female"
+      },
+      {
+        "name": "Nala",
+        "alt": "An adorable marbled Bengal kitten sitting on a white cushion.",
+        "src": "images/bengal_marbled.png",
+        "gender": "Female"
+      }
+    ]
+  },
+  "beagle": {
+    "breed_name": "Beagle",
+    "page_title": "Beagle Puppies for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Buddy",
+        "alt": "Adorable Beagle puppy sitting down",
+        "src": "images/beagle.png",
+        "gender": "Male"
+      }
+    ]
+  },
+  "bernese-mountain-dog": {
+    "breed_name": "Bernese Mountain Dog",
+    "page_title": "Bernese Mountain Dog Puppies for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Bernie",
+        "alt": "Adorable Bernese Mountain Dog puppy sitting down",
+        "src": "images/bernese_mountain_dog.png",
+        "gender": "Male"
+      }
+    ]
+  },
+  "border-collie": {
+    "breed_name": "Border Collie",
+    "page_title": "Border Collie Puppies for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Rocky",
+        "alt": "Adorable Border Collie puppy sitting down",
+        "src": "images/border_collie.png",
+        "gender": "Male"
+      }
+    ]
+  },
+  "boston-terrier": {
+    "breed_name": "Boston Terrier",
+    "page_title": "Boston Terrier Puppies for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Buster",
+        "alt": "Adorable Boston Terrier puppy sitting down",
+        "src": "images/boston_terrier.png",
+        "gender": "Male"
+      }
+    ]
+  },
+  "boxer": {
+    "breed_name": "Boxer",
+    "page_title": "Boxer Puppies for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Duke",
+        "alt": "Adorable Boxer puppy sitting down",
+        "src": "images/boxer.png",
+        "gender": "Male"
+      }
+    ]
+  },
+  "cane-corso": {
+    "breed_name": "Cane Corso",
+    "page_title": "Cane Corso Puppies for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Zeus",
+        "alt": "Adorable Cane Corso puppy sitting down",
+        "src": "images/cane_corso.png",
+        "gender": "Male"
+      }
+    ]
+  },
+  "french-bulldog": {
+    "breed_name": "French Bulldog",
+    "page_title": "French Bulldog Puppies for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Pierre",
+        "alt": "Adorable French Bulldog puppy sitting down",
+        "src": "images/french_bulldog.png",
+        "gender": "Male"
+      }
+    ]
+  },
+  "pembroke-welsh-corgi": {
+    "breed_name": "Pembroke Welsh Corgi",
+    "page_title": "Pembroke Welsh Corgi Puppies for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vaccinated",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Winston",
+        "alt": "Adorable Pembroke Welsh Corgi puppy sitting down",
+        "src": "images/pembroke_welsh_corgi.png",
+        "gender": "Male"
+      }
+    ]
+  },
+  "persian": {
+    "breed_name": "Persian",
+    "page_title": "Persian Kittens for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vet Certified",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Snowball",
+        "alt": "Adorable fluffy white Persian kitten",
+        "src": "images/persian.png",
+        "gender": "Female"
+      }
+    ]
+  },
+  "siamese": {
+    "breed_name": "Siamese",
+    "page_title": "Siamese Kittens for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vet Certified",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Coco",
+        "alt": "Adorable Siamese kitten sitting on a soft blanket",
+        "src": "images/siamese.png",
+        "gender": "Male"
+      }
+    ]
+  },
+  "scottish-fold": {
+    "breed_name": "Scottish Fold",
+    "page_title": "Scottish Fold Kittens for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vet Certified",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Lulu",
+        "alt": "Adorable Scottish Fold kitten with folded ears",
+        "src": "images/scottish_fold.png",
+        "gender": "Female"
+      }
+    ]
+  },
+  "sphynx": {
+    "breed_name": "Sphynx",
+    "page_title": "Sphynx Kittens for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vet Certified",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Cleo",
+        "alt": "Adorable hairless Sphynx kitten with wrinkles",
+        "src": "images/sphynx.png",
+        "gender": "Female"
+      }
+    ]
+  },
+  "russian-blue": {
+    "breed_name": "Russian Blue",
+    "page_title": "Russian Blue Kittens for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vet Certified",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Smokey",
+        "alt": "Adorable Russian Blue kitten with green eyes",
+        "src": "images/russian_blue.png",
+        "gender": "Male"
+      }
+    ]
+  },
+  "norwegian-forest-cat": {
+    "breed_name": "Norwegian Forest Cat",
+    "page_title": "Norwegian Forest Cat Kittens for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vet Certified",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Freya",
+        "alt": "Adorable fluffy Norwegian Forest Cat kitten",
+        "src": "images/norwegian_forest_cat.png",
+        "gender": "Female"
+      }
+    ]
+  },
+  "siberian": {
+    "breed_name": "Siberian",
+    "page_title": "Siberian Kittens for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vet Certified",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Sasha",
+        "alt": "Adorable fluffy Siberian kitten",
+        "src": "images/siberian.png",
+        "gender": "Female"
+      }
+    ]
+  },
+  "abyssinian": {
+    "breed_name": "Abyssinian",
+    "page_title": "Abyssinian Kittens for Sale | Elite Paws",
+    "texts": [
+      "Parents: Healthy and Vet Certified",
+      "Registration Documents Included"
+    ],
+    "puppies": [
+      {
+        "name": "Simba",
+        "alt": "Adorable ticked ruddy Abyssinian kitten",
+        "src": "images/abyssinian.png",
+        "gender": "Male"
+      }
+    ]
+  }
+}
