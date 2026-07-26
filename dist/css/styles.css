@@ -1727,27 +1727,21 @@ textarea.form-control {
 
     /* Hero section responsiveness for mobile */
     .hero-section {
-        position: relative !important;
-        height: 100vh !important;
-        min-height: 640px !important;
-        width: 100% !important;
-        overflow: hidden !important;
-        display: block !important;
+        height: auto !important;
+        min-height: 800px !important;
+        padding-top: 140px !important;
+        padding-bottom: 300px !important;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     .hero-container-overlay {
-        position: absolute !important;
-        bottom: 50px !important;
-        left: 0 !important;
-        right: 0 !important;
-        z-index: 5 !important;
         padding: 0 20px !important;
-        margin: 0 auto !important;
-        width: 100% !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        text-align: center !important;
+        margin-bottom: 0 !important;
+        width: 100%;
     }
 
     .hero-content {
@@ -1756,25 +1750,26 @@ textarea.form-control {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-top: auto;
     }
 
     .hero-tagline {
         font-size: 0.82rem;
         letter-spacing: 1.5px;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
     }
 
     .hero-title {
         font-size: 32px !important;
         line-height: 40px !important;
-        margin-bottom: 14px;
+        margin-bottom: 16px;
     }
 
     .hero-desc {
-        font-size: 0.98rem;
-        line-height: 1.5;
+        font-size: 1rem;
+        line-height: 1.55;
         max-width: 100%;
-        margin: 0 auto 20px auto;
+        margin: 0 auto 24px auto;
     }
 
     .hero-buttons {
@@ -1788,15 +1783,11 @@ textarea.form-control {
     .hero-buttons .btn-primary,
     .hero-buttons .btn-secondary {
         flex: 1 1 auto;
-        min-width: 140px;
-        max-width: 220px;
+        min-width: 150px;
+        max-width: 240px;
         justify-content: center;
-        padding: 13px 22px;
+        padding: 14px 24px;
         font-size: 0.95rem;
-    }
-
-    .hero-indicators {
-        margin-top: 20px !important;
     }
 
     .about-cards-grid {
