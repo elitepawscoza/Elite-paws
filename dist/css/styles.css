@@ -1728,14 +1728,16 @@ textarea.form-control {
     /* Hero section responsiveness for mobile */
     .hero-section {
         position: relative !important;
-        height: auto !important;
-        min-height: 560px !important;
+        height: 520px !important;
+        min-height: 520px !important;
+        max-height: 520px !important;
         width: 100% !important;
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
         align-items: center !important;
-        padding: 90px 0 40px 0 !important;
+        overflow: hidden !important;
+        padding: 50px 0 !important;
         text-align: center !important;
     }
 
@@ -2291,23 +2293,18 @@ textarea.form-control {
 
 /* Trusted By Families Section */
 .trusted-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
     background-color: rgba(17, 15, 14, 0.45);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-top: none;
     border-bottom: none;
-    padding: 24px 0;
+    padding: 16px 0;
     text-align: center;
-}
-
-@media (min-width: 901px) {
-    .trusted-bar {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        z-index: 10;
-    }
 }
 
 .trusted-title {
