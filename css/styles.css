@@ -1725,21 +1725,23 @@ textarea.form-control {
         margin-top: 8px;
     }
 
-    /* Hero section responsiveness for mobile */
+    /* Hero section responsiveness for mobile - Pushed to Base */
     .hero-section {
         height: auto !important;
-        min-height: 580px;
-        padding: 100px 0 40px 0;
+        min-height: 650px;
+        padding: 110px 0 30px 0;
         text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end !important;
         align-items: center;
     }
 
     .hero-container-overlay {
         padding: 0 20px;
-        margin-bottom: 24px;
+        margin-top: auto !important;
+        margin-bottom: 16px;
+        width: 100%;
     }
 
     .hero-content {
