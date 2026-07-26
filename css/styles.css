@@ -1728,20 +1728,25 @@ textarea.form-control {
     /* Hero section responsiveness for mobile */
     .hero-section {
         height: auto !important;
-        min-height: 800px !important;
-        padding-top: 140px !important;
-        padding-bottom: 300px !important;
-        text-align: center;
+        min-height: 850px;
+        position: relative;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: flex-end !important;
         align-items: center;
+        padding-top: 120px;
+        padding-bottom: 200px !important;
+        text-align: center;
     }
 
     .hero-container-overlay {
         padding: 0 20px !important;
         margin-bottom: 0 !important;
-        width: 100%;
+        position: relative;
+        z-index: 3;
+    }
+        padding: 0 20px;
+        margin-bottom: 24px;
     }
 
     .hero-content {
@@ -1750,7 +1755,6 @@ textarea.form-control {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-top: auto;
     }
 
     .hero-tagline {
