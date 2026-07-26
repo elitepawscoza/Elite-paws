@@ -284,6 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 9. Intersection Observer for Fade-up Reveal on Scroll
     const revealElements = document.querySelectorAll('.reveal');
+    revealElements.forEach(el => el.classList.add('visible'));
     if ('IntersectionObserver' in window && revealElements.length > 0) {
         const observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
@@ -293,9 +294,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
         }, {
-            threshold: 0.1,
-            rootMargin: "0px 0px -50px 0px"
+            threshold: 0.05,
+            rootMargin: "50px 0px 50px 0px"
         });
+        revealElements.forEach(el => observer.observe(el));
+    }
     // 10. Contact Form Button Color Change on Input
     const contactForms = document.querySelectorAll('form');
     contactForms.forEach(form => {
