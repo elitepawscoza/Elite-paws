@@ -1,5 +1,5 @@
 /* -------------------------------------------------------------
-   Heavenly Paws Place - Interactive Logic & Client-side Router/Filter
+   ElitePawsworld - Interactive Logic & Client-side Router/Filter
 ------------------------------------------------------------- */
 
 document.addEventListener('DOMContentLoaded', () => {
