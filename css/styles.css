@@ -1728,73 +1728,95 @@ textarea.form-control {
     /* Hero section responsiveness for mobile */
     .hero-section {
         position: relative !important;
-        height: 520px !important;
-        min-height: 520px !important;
-        max-height: 520px !important;
+        height: auto !important;
+        min-height: calc(100vh - var(--header-height)) !important;
         width: 100% !important;
         display: flex !important;
         flex-direction: column !important;
-        justify-content: center !important;
+        justify-content: space-between !important;
         align-items: center !important;
-        overflow: hidden !important;
-        padding: 50px 0 !important;
+        padding-top: calc(var(--header-height) + 20px) !important;
+        padding-bottom: 0 !important;
         text-align: center !important;
+        overflow: hidden !important;
     }
 
     .hero-container-overlay {
         position: relative !important;
-        bottom: auto !important;
-        left: auto !important;
-        right: auto !important;
         width: 100% !important;
         padding: 0 20px !important;
         z-index: 5 !important;
-        margin: 0 !important;
+        margin: 0 auto !important;
+        flex: 1 0 auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     .hero-content {
-        max-width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        max-width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        margin: 0 auto !important;
     }
 
     .hero-tagline {
-        font-size: 0.82rem;
-        letter-spacing: 1.5px;
-        margin-bottom: 12px;
+        font-size: 0.8rem !important;
+        letter-spacing: 1.5px !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+        text-transform: uppercase !important;
+        color: var(--color-accent-light) !important;
     }
 
     .hero-title {
-        font-size: 32px !important;
-        line-height: 40px !important;
-        margin-bottom: 16px;
+        font-size: 26px !important;
+        line-height: 34px !important;
+        margin-bottom: 14px !important;
+        word-wrap: break-word !important;
     }
 
     .hero-desc {
-        font-size: 1rem;
-        line-height: 1.55;
-        max-width: 100%;
-        margin: 0 auto 24px auto;
+        font-size: 0.92rem !important;
+        line-height: 1.5 !important;
+        max-width: 100% !important;
+        margin: 0 auto 20px auto !important;
+        padding: 0 5px !important;
+        color: rgba(255, 255, 255, 0.9) !important;
     }
 
     .hero-buttons {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 12px;
-        width: 100%;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 12px !important;
+        margin-bottom: 16px !important;
+        width: 100% !important;
     }
 
     .hero-buttons .btn-primary,
     .hero-buttons .btn-secondary {
-        flex: 1 1 auto;
-        min-width: 150px;
-        max-width: 240px;
-        justify-content: center;
-        padding: 14px 24px;
-        font-size: 0.95rem;
+        flex: 1 1 auto !important;
+        min-width: 135px !important;
+        max-width: 220px !important;
+        justify-content: center !important;
+        padding: 12px 20px !important;
+        font-size: 0.95rem !important;
+    }
+
+    .hero-indicators {
+        position: relative !important;
+        bottom: auto !important;
+        right: auto !important;
+        left: auto !important;
+        display: flex !important;
+        justify-content: center !important;
+        gap: 10px !important;
+        margin-top: 8px !important;
+        margin-bottom: 24px !important;
     }
 
     .about-cards-grid {
@@ -1820,12 +1842,42 @@ textarea.form-control {
     .trusted-bar {
         position: relative !important;
         bottom: auto !important;
-        width: 100%;
-        padding: 20px 16px;
+        left: auto !important;
+        width: 100% !important;
+        z-index: 10 !important;
+        margin-top: auto !important;
+        padding: 18px 16px !important;
+        background-color: rgba(17, 15, 14, 0.65) !important;
+        backdrop-filter: blur(20px) !important;
+        -webkit-backdrop-filter: blur(20px) !important;
+    }
+
+    .trusted-title {
+        font-size: 11px !important;
+        letter-spacing: 1.5px !important;
+        margin-bottom: 10px !important;
     }
 
     .trusted-badges-grid {
-        gap: 14px 20px;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 10px 20px !important;
+    }
+
+    .trusted-badge-item {
+        font-size: 13px !important;
+        gap: 6px !important;
+    }
+
+    /* Responsive Section Headings */
+    .section-title,
+    .about-col-title {
+        font-size: 26px !important;
+        line-height: 34px !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
     }
 
     .trusted-badge-item {
