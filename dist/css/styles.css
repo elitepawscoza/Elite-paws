@@ -1609,9 +1609,13 @@ textarea.form-control {
         --header-height: 70px;
     }
 
+    .container {
+        padding: 0 20px !important;
+    }
+
     .site-header {
         height: var(--header-height);
-        padding: 0 16px;
+        padding: 0 !important;
     }
 
     .header-container {
@@ -1619,10 +1623,13 @@ textarea.form-control {
         align-items: center;
         justify-content: space-between;
         width: 100%;
+        padding: 0 20px !important;
     }
 
     .logo-link {
         flex: 0 1 auto;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
     }
 
     .logo-text {
@@ -1647,8 +1654,9 @@ textarea.form-control {
     .hamburger {
         display: flex !important;
         flex-shrink: 0;
-        margin-left: auto;
-        padding: 4px;
+        margin-left: auto !important;
+        margin-right: 0 !important;
+        padding: 0 !important;
         z-index: 1010;
         cursor: pointer;
     }
