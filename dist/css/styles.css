@@ -694,6 +694,8 @@ ul {
 .hero-content .btn-secondary:hover {
     background-color: var(--color-white);
     color: var(--color-primary-dark);
+}
+
 /* Trusted Bar Base Styles (Desktop Mode) */
 .trusted-bar {
     position: absolute;
