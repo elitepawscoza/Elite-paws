@@ -83,15 +83,15 @@ TESTIMONIALS = [
         "rating": "★★★★★",
         "badge": "Verified Adoption",
         "date": "Adopted February 2026",
-        "review": "Our kitten settled in immediately. The kitten we received was calm, affectionate, and already used to people. The team answered all our questions before delivery. Highly recommended.",
+        "review": "Our puppy settled in immediately. The puppy we received was calm, affectionate, and already used to people. The team answered all our questions before delivery. Highly recommended.",
         "avatar": "images/reviews/review5.jpg"
     },
     {
         "name": "Sarah & Michael",
         "location": "Durban, KwaZulu Natal",
+        "date": "Adopted November 2025",
         "rating": "★★★★★",
         "badge": "Verified Adoption",
-        "date": "Adopted November 2025",
         "review": "We were nervous about buying a puppy online, but everything was transparent. Vaccination records and health information were provided. Excellent service.",
         "avatar": "images/reviews/review3.jpg"
     },
@@ -110,7 +110,7 @@ TESTIMONIALS = [
         "rating": "★★★★★",
         "badge": "Verified Adoption",
         "date": "Adopted December 2025",
-        "review": "From the first enquiry to collection day, the communication was excellent. Our family is in love with our new kitten.",
+        "review": "From the first enquiry to collection day, the communication was excellent. Our family is in love with our new puppy.",
         "avatar": "images/reviews/review2.jpg"
     },
     {
@@ -313,7 +313,7 @@ def get_head(title_suffix):
     <meta name="description" content="Premium luxury dog and cat breeder. Ethically raised, vet certified, and healthy pets for loving families.">
     <meta name="author" content="Elite Paws World">
     <link rel="icon" href="{LOGO_IMG}" type="image/x-icon">
-    <link rel="stylesheet" href="css/styles.css?v=210.0">
+    <link rel="stylesheet" href="css/styles.css?v=220.0">
 </head>
 <body>
 """
@@ -356,7 +356,6 @@ def get_header(active_page):
             <nav class="nav-menu">
                 <a href="index.html" class="nav-link {check_active('home')}">Home</a>
                 <a href="available-puppies.html" class="nav-link {check_active('puppies')}">Puppies</a>
-                <a href="available-kittens.html" class="nav-link {check_active('kittens')}">Kittens</a>
                 
                 <div class="nav-item-dropdown">
                     <a href="#" class="nav-link {check_active('breeds')}">Breeds</a>
@@ -371,12 +370,6 @@ def get_header(active_page):
                                     {dogs_col2_html}
                                 </ul>
                             </div>
-                        </div>
-                        <div class="megamenu-section separator">
-                            <h4 class="megamenu-title">Kitty Breeds</h4>
-                            <ul class="megamenu-list">
-                                {cats_html}
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -415,13 +408,12 @@ def get_footer():
                         <img src="images/logo-paw.png" alt="Elite Paws World Logo" class="logo-paw-icon" style="width: 24px; margin-top: -8px;">
                     </span>
                 </a>
-                <p class="footer-desc">Premium luxury dog and cat breeder. Ethically raised, vet certified, and healthy pets for loving families. We treat your pets like our own family, backing our service with decades of experience.</p>
+                <p class="footer-desc">Premium luxury dog breeder. Ethically raised, vet certified, and healthy puppies for loving families. We treat your pets like our own family, backing our service with decades of experience.</p>
             </div>
             <div>
                 <h4 class="footer-title">Quick Links</h4>
                 <ul class="footer-links">
                     <li><a href="available-puppies.html">Available Puppies</a></li>
-                    <li><a href="available-kittens.html">Available Kittens</a></li>
                     <li><a href="reviews.html">Pawsome Reviews</a></li>
                     <li><a href="contact-us.html">Contact Us</a></li>
                 </ul>
@@ -429,8 +421,8 @@ def get_footer():
             <div>
                 <h4 class="footer-title">Popular Breeds</h4>
                 <ul class="footer-links">
-                    <li><a href="available-kittens.html?breed=british-shorthair">British Shorthair</a></li>
-                    <li><a href="available-kittens.html?breed=ragdoll">Ragdoll</a></li>
+                    <li><a href="available-puppies.html?breed=golden-retriever">Golden Retriever</a></li>
+                    <li><a href="available-puppies.html?breed=french-bulldog">French Bulldog</a></li>
                     <li><a href="available-puppies.html?breed=labrador-retriever">Labrador Retriever</a></li>
                     <li><a href="available-puppies.html?breed=cavalier-king-charles-spaniel">Cavalier King Charles</a></li>
                 </ul>
@@ -523,66 +515,6 @@ def build_homepage():
             """
             count += 1
 
-    # Fetch 4 featured kitten cards
-    featured_kitten_cards = ""
-    count = 0
-    for slug in CAT_BREEDS:
-        if count >= 4:
-            break
-        data = puppies_db.get(slug, {})
-        kits = data.get("puppies", [])
-        if kits:
-            kit = kits[0]
-            kit_name, kit_gender = clean_pup_record(kit, count)
-            gender_class = kit_gender.lower()
-            featured_kitten_cards += f"""
-            <div class="puppy-card" data-breed="{slug}" data-gender="{gender_class}">
-                <div class="puppy-img-wrap">
-                    <img src="{kit['src']}" alt="{kit['alt']}" class="puppy-img" loading="lazy">
-                </div>
-                <div class="puppy-info">
-                    <div class="puppy-card-details">
-                        <div class="puppy-detail-item">
-                            <span class="puppy-detail-label">Name</span>
-                            <span style="font-weight: 700;">{kit_name}</span>
-                        </div>
-                        <div class="puppy-detail-item">
-                            <span class="puppy-detail-label">Breed</span>
-                            <span style="font-weight: 600;">{data['breed_name']}</span>
-                        </div>
-                        <div class="puppy-detail-item">
-                            <span class="puppy-detail-label">Gender</span>
-                            <span>{kit_gender}</span>
-                        </div>
-                        <div class="puppy-detail-item">
-                            <span class="puppy-detail-label">Status</span>
-                            <span class="puppy-status-available" style="color: #339e45; font-weight: 700;">Available</span>
-                        </div>
-                        <div class="puppy-detail-item">
-                            <span class="puppy-detail-label">Delivery</span>
-                            <span>Nationwide</span>
-                        </div>
-                        <div class="puppy-detail-item">
-                            <span class="puppy-detail-label">Health</span>
-                            <span>Vet Checked</span>
-                        </div>
-                        <div class="puppy-detail-item">
-                            <span class="puppy-detail-label">Vaccinations</span>
-                            <span>Up to Date</span>
-                        </div>
-                        <div class="puppy-detail-item">
-                            <span class="puppy-detail-label">Registration</span>
-                            <span>Documents Included</span>
-                        </div>
-                    </div>
-                    <a href="contact-us.html" class="puppy-inquiry-btn">
-                        Buy me
-                    </a>
-                </div>
-            </div>
-            """
-            count += 1
-
     # Build testimonials slider cards
     slider_reviews_html = ""
     for idx, t in enumerate(TESTIMONIALS):
@@ -628,10 +560,9 @@ def build_homepage():
             <div class="hero-content">
                 <div class="hero-tagline">Family-Owned & Raised with Love</div>
                 <h1 class="hero-title">Welcome to Elite paws world</h1>
-                <p class="hero-desc">We are premier breeders offering ethically raised, vet-certified puppies and kittens for loving families. Discover your perfect, healthy new family member raised with dedicated care and affection.</p>
+                <p class="hero-desc">We are premier breeders offering ethically raised, vet-certified puppies for loving families. Discover your perfect, healthy new family member raised with dedicated care and affection.</p>
                 <div class="hero-buttons">
-                    <a href="available-puppies.html" class="btn-primary">View Puppies</a>
-                    <a href="available-kittens.html" class="btn-secondary">View Kittens</a>
+                    <a href="available-puppies.html" class="btn-primary">View Available Puppies</a>
                 </div>
             </div>
             <!-- Slideshow Indicators -->
@@ -693,7 +624,7 @@ def build_homepage():
                         <img src="images/about-1.jpg" alt="Warm & Welcoming" class="about-img">
                     </div>
                     <h3 class="about-col-title">Warm & Welcoming</h3>
-                    <p class="about-col-desc">Welcome to Elite Paws World, where healthy puppies and kittens find loving homes. We are dedicated to raising happy, well cared for companions through responsible breeding, expert care, and plenty of love. From your first enquiry to bringing your new family member home, our team is here to make the experience simple, transparent, and memorable.</p>
+                    <p class="about-col-desc">Welcome to Elite Paws World, where healthy puppies find loving homes. We are dedicated to raising happy, well cared for companions through responsible breeding, expert care, and plenty of love. From your first enquiry to bringing your new family member home, our team is here to make the experience simple, transparent, and memorable.</p>
                 </div>
                 
                 <!-- Column 2 -->
@@ -702,7 +633,7 @@ def build_homepage():
                         <img src="images/about-2.jpg" alt="Premium & Trustworthy" class="about-img">
                     </div>
                     <h3 class="about-col-title">Premium & Trustworthy</h3>
-                    <p class="about-col-desc">At Elite Paws World, we believe every family deserves a healthy, happy companion. Our puppies and kittens are ethically raised in a clean, nurturing environment, receive regular veterinary care, and are well socialized before joining their forever homes. We are committed to quality, responsible breeding, and building lasting relationships with every family we serve.</p>
+                    <p class="about-col-desc">At Elite Paws World, we believe every family deserves a healthy, happy companion. Our puppies are ethically raised in a clean, nurturing environment, receive regular veterinary care, and are well socialized before joining their forever homes. We are committed to quality, responsible breeding, and building lasting relationships with every family we serve.</p>
                 </div>
                 
                 <!-- Column 3 -->
@@ -711,7 +642,7 @@ def build_homepage():
                         <img src="images/about-3.jpg" alt="Professional & Confidence Building" class="about-img">
                     </div>
                     <h3 class="about-col-title">Professional & Confidence Building</h3>
-                    <p class="about-col-desc">Your confidence starts with our commitment to responsible breeding and exceptional care. Every puppy and kitten at Elite Paws World receives routine health checks, age appropriate vaccinations, and daily socialization to ensure they are ready for life with their new family. We focus on raising healthy, confident companions while providing honest guidance and support throughout your adoption journey.</p>
+                    <p class="about-col-desc">Your confidence starts with our commitment to responsible breeding and exceptional care. Every puppy at Elite Paws World receives routine health checks, age appropriate vaccinations, and daily socialization to ensure they are ready for life with their new family. We focus on raising healthy, confident companions while providing honest guidance and support throughout your adoption journey.</p>
                 </div>
             </div>
         </div>
@@ -731,24 +662,6 @@ def build_homepage():
 
             <div style="text-align: center;">
                 <a href="available-puppies.html" class="btn-primary">Browse All Available Puppies</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- 4. Available Kittens (Featured Grid) -->
-    <section class="section-padding reveal" style="background-color: var(--color-bg-alt);">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Kittens</h2>
-                <p class="section-subtitle">Discover our highly socialized, beautiful available kittens.</p>
-            </div>
-            
-            <div class="puppies-grid featured-puppies-grid" style="margin-bottom: 48px;">
-                {featured_kitten_cards}
-            </div>
-
-            <div style="text-align: center;">
-                <a href="available-kittens.html" class="btn-primary">Browse All Available Kittens</a>
             </div>
         </div>
     </section>
@@ -793,7 +706,7 @@ def build_homepage():
                         <path d="M26 31.5 L30 35.5 L38 27.5" stroke-width="2.5" />
                     </svg>
                     <h3 class="about-card-title">Vet Certified</h3>
-                    <p class="about-card-desc">Every puppy and kitten is vet-certified, fully vaccinated, dewormed, and microchipped before arriving at their new home.</p>
+                    <p class="about-card-desc">Every puppy is vet-certified, fully vaccinated, dewormed, and microchipped before arriving at their new home.</p>
                 </div>
                 <div class="about-card why-choose-card">
                     <svg width="72" height="72" viewBox="0 0 64 64" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: block; margin: 0 auto;">
@@ -885,7 +798,7 @@ def build_homepage():
                         <span class="faq-icon">+</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Simply select your favorite available puppy or kitten, click "WhatsApp Adopt" to connect with us, and we will guide you through reservation, health screening, and safe delivery/collection.</p>
+                        <p>Simply select your favorite available puppy, click "WhatsApp Adopt" to connect with us, and we will guide you through reservation, health screening, and safe delivery/collection.</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -894,7 +807,7 @@ def build_homepage():
                         <span class="faq-icon">+</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Yes, absolutely. All puppies and kittens are vaccinated up to their age, microchipped, dewormed regularly, and come with their official veterinary health booklet.</p>
+                        <p>Yes, absolutely. All puppies are vaccinated up to their age, microchipped, dewormed regularly, and come with their official veterinary health booklet.</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -1118,116 +1031,6 @@ def build_puppies_page():
     
     html = get_head("Available Puppies") + get_header("puppies") + body_content + get_footer()
     with open(os.path.join(DIST_DIR, "available-puppies.html"), "w", encoding="utf-8") as f:
-        f.write(html)
-
-def build_kittens_page():
-    # Gather only kittens from cat breeds
-    all_kittens = []
-    for slug in CAT_BREEDS:
-        data = puppies_db.get(slug, {})
-        for kit in data.get("puppies", []):
-            all_kittens.append({
-                "breed_slug": slug,
-                "breed_name": data["breed_name"],
-                "name": kit["name"],
-                "alt": kit["alt"],
-                "src": kit["src"],
-                "gender": kit["gender"]
-            })
-
-    # Breed filter buttons HTML
-    breed_buttons = '<button class="filter-btn active" data-breed="all">All Breeds</button>\n'
-    for slug in CAT_BREEDS:
-        name = get_breed_name(slug)
-        breed_buttons += f'<button class="filter-btn" data-breed="{slug}">{name}</button>\n'
-
-    # Kitten Cards Grid HTML
-    kitten_cards = ""
-    for idx, kit in enumerate(all_kittens):
-        kit_name, kit_gender = clean_pup_record(kit, idx)
-        gender_class = kit_gender.lower()
-        kitten_cards += f"""
-        <div class="puppy-card" data-breed="{kit['breed_slug']}" data-gender="{gender_class}">
-            <div class="puppy-img-wrap">
-                <img src="{kit['src']}" alt="{kit['alt']}" class="puppy-img" loading="lazy">
-            </div>
-            <div class="puppy-info">
-                <div class="puppy-card-details">
-                    <div class="puppy-detail-item">
-                        <span class="puppy-detail-label">Name</span>
-                        <span style="font-weight: 700;">{kit_name}</span>
-                    </div>
-                    <div class="puppy-detail-item">
-                        <span class="puppy-detail-label">Breed</span>
-                        <span style="font-weight: 600;">{kit['breed_name']}</span>
-                    </div>
-                    <div class="puppy-detail-item">
-                        <span class="puppy-detail-label">Gender</span>
-                        <span>{kit_gender}</span>
-                    </div>
-                    <div class="puppy-detail-item">
-                        <span class="puppy-detail-label">Status</span>
-                        <span class="puppy-status-available" style="color: #339e45; font-weight: 700;">Available</span>
-                    </div>
-                    <div class="puppy-detail-item">
-                        <span class="puppy-detail-label">Delivery</span>
-                        <span>Nationwide</span>
-                    </div>
-                    <div class="puppy-detail-item">
-                        <span class="puppy-detail-label">Health</span>
-                        <span>Vet Checked</span>
-                    </div>
-                    <div class="puppy-detail-item">
-                        <span class="puppy-detail-label">Vaccinations</span>
-                        <span>Up to Date</span>
-                    </div>
-                    <div class="puppy-detail-item">
-                        <span class="puppy-detail-label">Registration</span>
-                        <span>Documents Included</span>
-                    </div>
-                </div>
-                <a href="contact-us.html" class="puppy-inquiry-btn">
-                    Buy me
-                </a>
-            </div>
-        </div>
-        """
-
-    body_content = f"""
-    <!-- Available Kittens Header -->
-    <section class="section-padding" style="background-color: var(--color-bg-card); padding-bottom: 2rem;">
-        <div class="container" style="text-align: center;">
-            <h1 class="section-title">Available Kittens for Adoption</h1>
-            <p class="section-subtitle" style="max-width: 600px; margin: 0 auto;">Browse all of our current litters. Filter by breed or gender to find your perfect new family member.</p>
-        </div>
-    </section>
-
-    <!-- Filters and Grid -->
-    <section class="section-padding" style="background-color: var(--color-white);">
-        <div class="container">
-            <div class="filter-section">
-                <!-- Breed Buttons -->
-                <div class="breed-filters-wrap">
-                    {breed_buttons}
-                </div>
-                <!-- Gender Buttons -->
-                <div class="gender-filters">
-                    <button class="filter-btn active" data-gender="all">All Genders</button>
-                    <button class="filter-btn" data-gender="male">Males Only</button>
-                    <button class="filter-btn" data-gender="female">Females Only</button>
-                </div>
-            </div>
-
-            <!-- Grid -->
-            <div class="featured-puppies-grid puppies-grid">
-                {kitten_cards}
-            </div>
-        </div>
-    </section>
-    """
-    
-    html = get_head("Available Kittens") + get_header("kittens") + body_content + get_footer()
-    with open(os.path.join(DIST_DIR, "available-kittens.html"), "w", encoding="utf-8") as f:
         f.write(html)
 
 # 7. Build Reviews Page (reviews.html)
@@ -1524,8 +1327,6 @@ if __name__ == "__main__":
     print("  Homepage index.html generated.")
     build_puppies_page()
     print("  Puppies Directory available-puppies.html generated.")
-    build_kittens_page()
-    print("  Kittens Directory available-kittens.html generated.")
     build_reviews_page()
     print("  Reviews reviews.html generated.")
     build_contact_page()
