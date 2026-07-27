@@ -1687,24 +1687,33 @@ textarea.form-control {
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    background-color: rgba(255, 255, 255, 0.05);
-    color: var(--color-white);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.25rem;
-    line-height: 1;
-    cursor: pointer;
-    transition: all 0.25s ease;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: #FFFFFF !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 1.25rem !important;
+    line-height: 1 !important;
+    cursor: pointer !important;
+    outline: none !important;
+    user-select: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    transition: all 0.25s ease !important;
 }
 
 .slider-control-btn:hover,
-.slider-btn:hover {
-    background-color: var(--color-gold);
-    border-color: var(--color-gold);
-    color: #0B0A09;
-    transform: scale(1.05);
+.slider-btn:hover,
+.slider-control-btn:focus,
+.slider-btn:focus,
+.slider-control-btn:active,
+.slider-btn:active {
+    background-color: var(--color-gold) !important;
+    border-color: var(--color-gold) !important;
+    color: #0B0A09 !important;
+    transform: scale(1.08) !important;
+    outline: none !important;
+    box-shadow: 0 4px 14px rgba(212, 175, 55, 0.3) !important;
 }
 
 /* 8.6 Frequently Asked Questions (FAQ Accordion) Base Styles */
