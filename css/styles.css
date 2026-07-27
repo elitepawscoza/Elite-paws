@@ -1701,7 +1701,7 @@ textarea.form-control {
     outline: none !important;
     user-select: none !important;
     -webkit-tap-highlight-color: transparent !important;
-    transition: all 0.25s ease !important;
+    transition: transform 0.25s ease !important;
 }
 
 .slider-control-btn:hover,
@@ -1710,12 +1710,12 @@ textarea.form-control {
 .slider-btn:focus,
 .slider-control-btn:active,
 .slider-btn:active {
-    background-color: var(--color-gold) !important;
-    border-color: var(--color-gold) !important;
-    color: #0B0A09 !important;
-    transform: scale(1.08) !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+    color: #FFFFFF !important;
+    transform: scale(0.92) !important;
     outline: none !important;
-    box-shadow: 0 4px 14px rgba(212, 175, 55, 0.3) !important;
+    box-shadow: none !important;
 }
 
 /* 8.6 Frequently Asked Questions (FAQ Accordion) Base Styles */
