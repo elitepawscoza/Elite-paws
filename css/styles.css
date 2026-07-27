@@ -2032,11 +2032,26 @@ html, body {
         font-size: 24px !important;
     }
 
+    .reviews-slider-wrap {
+        padding: 10px 0 20px 0 !important;
+        overflow-x: auto !important;
+        scroll-snap-type: x mandatory !important;
+        -webkit-overflow-scrolling: touch !important;
+    }
+
+    .reviews-slider {
+        display: flex !important;
+        gap: 16px !important;
+        width: max-content !important;
+    }
+
     .dark-card {
-        width: 100% !important;
-        max-width: 340px !important;
+        width: 84vw !important;
+        max-width: 320px !important;
+        flex-shrink: 0 !important;
+        scroll-snap-align: center !important;
         min-height: auto !important;
-        padding: var(--spacing-md) !important;
+        padding: 20px 16px !important;
     }
 
     .slider-controls-wrap {
