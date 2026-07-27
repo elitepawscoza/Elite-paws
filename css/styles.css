@@ -1884,7 +1884,7 @@ html, body {
         margin-top: 10px !important;
         margin-bottom: 10px !important;
         text-transform: uppercase !important;
-        color: var(--color-accent-light) !important;
+        color: var(--color-accent) !important;
     }
 
     .hero-title {
