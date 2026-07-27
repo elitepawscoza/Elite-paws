@@ -313,7 +313,7 @@ def get_head(title_suffix):
     <meta name="description" content="Premium luxury dog and cat breeder. Ethically raised, vet certified, and healthy pets for loving families.">
     <meta name="author" content="Elite Paws World">
     <link rel="icon" href="{LOGO_IMG}" type="image/x-icon">
-    <link rel="stylesheet" href="css/styles.css?v=170.0">
+    <link rel="stylesheet" href="css/styles.css?v=180.0">
 </head>
 <body>
 """
@@ -618,10 +618,10 @@ def build_homepage():
     <section class="hero-section">
         <!-- Slideshow Background Images -->
         <div class="hero-slideshow">
-            <img src="images/hero-bg-1.jpg?v=150.0" alt="Puppies and Kittens Best Friends" class="hero-bg-img active">
-            <img src="images/hero-bg-2.jpg?v=150.0" alt="Puppies and Kittens Best Friends" class="hero-bg-img">
-            <img src="images/hero-bg-3.jpg?v=150.0" alt="Puppies and Kittens Best Friends" class="hero-bg-img">
-            <img src="images/hero-bg-4.jpg?v=150.0" alt="Puppies and Kittens Best Friends" class="hero-bg-img">
+            <div class="hero-bg-img active" style="background-image: url('images/hero-bg-1.jpg?v=180.0'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+            <div class="hero-bg-img" style="background-image: url('images/hero-bg-2.jpg?v=180.0'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+            <div class="hero-bg-img" style="background-image: url('images/hero-bg-3.jpg?v=180.0'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+            <div class="hero-bg-img" style="background-image: url('images/hero-bg-4.jpg?v=180.0'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
         </div>
         <div class="hero-overlay"></div>
         <div class="container hero-container-overlay">
