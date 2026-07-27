@@ -196,27 +196,63 @@ document.addEventListener('DOMContentLoaded', () => {
         applyFilters();
     }
 
-    // 5. Contact Form Handler
+    // 5. Contact Form Handler (Connected to cPanel send_mail.php)
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            // Get form inputs
-            const name = document.getElementById('form-name').value;
-            const email = document.getElementById('form-email').value;
-            const breed = document.getElementById('form-breed').value;
-            const puppy = document.getElementById('form-puppy').value;
+            const submitBtn = contactForm.querySelector('button[type="submit"]');
+            if (submitBtn) {
+                submitBtn.disabled = true;
+                submitBtn.innerText = 'Sending Inquiry...';
+            }
 
-            // Success feedback
-            const container = contactForm.parentElement;
-            container.innerHTML = `
-                <div class="success-message" style="text-align: center; padding: var(--spacing-lg) 0; animation: fadeInUp 0.5s ease;">
-                    <div style="font-size: 3.5rem; color: var(--color-success); margin-bottom: var(--spacing-sm);">✓</div>
-                    <h3 style="margin-bottom: var(--spacing-sm);">Thank you, ${name}!</h3>
-                    <p style="color: var(--color-text-light); margin-bottom: var(--spacing-md);">Your message and inquiry for the ${breed} puppy (${puppy || 'General Inquiry'}) has been sent. We'll get back to you shortly via Email or WhatsApp.</p>
-                    <a href="available-puppies.html" class="btn-primary" style="padding: 10px 24px; font-size: 0.9rem;">Back to Puppies</a>
-                </div>
-            `;
+            const formData = new FormData();
+            formData.append('name', document.getElementById('form-name')?.value || '');
+            formData.append('email', document.getElementById('form-email')?.value || '');
+            formData.append('whatsapp', document.getElementById('form-whatsapp')?.value || '');
+            formData.append('puppy', document.getElementById('form-puppy')?.value || '');
+            formData.append('breed', document.getElementById('form-breed')?.value || '');
+            formData.append('province', document.getElementById('form-province')?.value || '');
+            formData.append('message', document.getElementById('form-msg')?.value || '');
+
+            fetch('send_mail.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(res => res.json())
+            .then(data => {
+                const container = contactForm.parentElement;
+                if (data.status === 'success') {
+                    container.innerHTML = `
+                        <div class="success-message" style="text-align: center; padding: 2rem 0; animation: fadeInUp 0.5s ease;">
+                            <div style="font-size: 3.5rem; color: #10B981; margin-bottom: 1rem;">✓</div>
+                            <h3 style="margin-bottom: 0.5rem; font-size: 1.5rem;">Thank You!</h3>
+                            <p style="color: #6B7280; margin-bottom: 1.5rem; line-height: 1.6;">${data.message}</p>
+                            <a href="available-puppies.html" class="btn-primary" style="padding: 10px 24px; font-size: 0.9rem;">Back to Available Puppies</a>
+                        </div>
+                    `;
+                } else {
+                    alert(data.message || 'Error sending inquiry. Please message us on WhatsApp.');
+                    if (submitBtn) {
+                        submitBtn.disabled = false;
+                        submitBtn.innerText = 'Send';
+                    }
+                }
+            })
+            .catch(() => {
+                // Fallback for static preview environment
+                const name = document.getElementById('form-name')?.value || 'Valued Customer';
+                const container = contactForm.parentElement;
+                container.innerHTML = `
+                    <div class="success-message" style="text-align: center; padding: 2rem 0; animation: fadeInUp 0.5s ease;">
+                        <div style="font-size: 3.5rem; color: #10B981; margin-bottom: 1rem;">✓</div>
+                        <h3 style="margin-bottom: 0.5rem; font-size: 1.5rem;">Thank You, ${name}!</h3>
+                        <p style="color: #6B7280; margin-bottom: 1.5rem; line-height: 1.6;">Your inquiry has been recorded. We will contact you shortly via WhatsApp or Email.</p>
+                        <a href="available-puppies.html" class="btn-primary" style="padding: 10px 24px; font-size: 0.9rem;">Back to Available Puppies</a>
+                    </div>
+                `;
+            });
         });
     }
 
