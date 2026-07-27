@@ -694,6 +694,55 @@ ul {
 .hero-content .btn-secondary:hover {
     background-color: var(--color-white);
     color: var(--color-primary-dark);
+/* Trusted Bar Base Styles (Desktop Mode) */
+.trusted-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(17, 15, 14, 0.75);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 16px 0;
+    text-align: center;
+}
+
+.trusted-title {
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--color-gold);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.trusted-badges-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px 36px;
+}
+
+.trusted-badge-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.trusted-badge-item svg {
+    width: 18px;
+    height: 18px;
+    fill: #00B67A;
+    flex-shrink: 0;
 }
 
 /* 3.8 About Us Section (Cream background matching #F3EFE8) */
