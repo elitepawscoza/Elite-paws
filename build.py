@@ -313,7 +313,7 @@ def get_head(title_suffix):
     <meta name="description" content="Premium luxury dog and cat breeder. Ethically raised, vet certified, and healthy pets for loving families.">
     <meta name="author" content="Elite Paws World">
     <link rel="icon" href="{LOGO_IMG}" type="image/x-icon">
-    <link rel="stylesheet" href="css/styles.css?v=50.0">
+    <link rel="stylesheet" href="css/styles.css?v=60.0">
 </head>
 <body>
 """
@@ -629,7 +629,7 @@ def build_homepage():
                 <div class="hero-tagline">Family-Owned & Raised with Love</div>
                 <h1 class="hero-title">Welcome to Elite paws world</h1>
                 <p class="hero-desc">We are premier breeders offering ethically raised, vet-certified puppies and kittens for loving families. Discover your perfect, healthy new family member raised with dedicated care and affection.</p>
-                <div class="hero-buttons" style="display: flex; flex-wrap: wrap; gap: 16px;">
+                <div class="hero-buttons">
                     <a href="available-puppies.html" class="btn-primary">View Puppies</a>
                     <a href="available-kittens.html" class="btn-secondary">View Kittens</a>
                 </div>
@@ -923,13 +923,13 @@ def build_homepage():
     <section class="section-padding reveal" style="background-color: var(--color-bg-main); color: var(--color-headings); padding: 6rem 0; font-family: var(--font-body);" id="contact-us-section">
         <div class="container">
             <!-- Centered Header with Lines -->
-            <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 5rem;">
-                <div style="flex-grow: 1; height: 1px; background-color: var(--color-border); max-width: 35%;"></div>
-                <h2 style="font-family: var(--font-headings); font-size: 2.5rem; font-weight: normal; margin: 0 2rem; color: var(--color-headings); white-space: nowrap; letter-spacing: 1px;">Get in Touch</h2>
-                <div style="flex-grow: 1; height: 1px; background-color: var(--color-border); max-width: 35%;"></div>
+            <div class="section-header-divider">
+                <div class="divider-line"></div>
+                <h2 class="section-divider-title">Get in Touch</h2>
+                <div class="divider-line"></div>
             </div>
 
-            <div class="contact-grid" style="display: grid; grid-template-columns: 1fr 1.1fr; gap: 5rem; align-items: start;">
+            <div class="contact-grid">
                 
                 <!-- Left Column (WhatsApp Info) -->
                 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
@@ -1305,13 +1305,13 @@ def build_contact_page():
     <section class="section-padding" style="background-color: var(--color-bg-main); color: var(--color-headings); padding: 6rem 0; font-family: var(--font-body);">
         <div class="container">
             <!-- Centered Header with Lines -->
-            <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 5rem;">
-                <div style="flex-grow: 1; height: 1px; background-color: var(--color-border); max-width: 35%;"></div>
-                <h1 style="font-family: var(--font-headings); font-size: 2.5rem; font-weight: normal; margin: 0 2rem; color: var(--color-headings); white-space: nowrap; letter-spacing: 1px;">Contact Us</h1>
-                <div style="flex-grow: 1; height: 1px; background-color: var(--color-border); max-width: 35%;"></div>
+            <div class="section-header-divider">
+                <div class="divider-line"></div>
+                <h1 class="section-divider-title">Contact Us</h1>
+                <div class="divider-line"></div>
             </div>
 
-            <div class="contact-grid" style="display: grid; grid-template-columns: 1fr 1.1fr; gap: 5rem; align-items: start;">
+            <div class="contact-grid">
                 
                 <!-- Left Column (WhatsApp Info) -->
                 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
