@@ -1970,18 +1970,9 @@ html, body {
         white-space: normal !important;
     }
 
-    /* Trusted Bar */
+    /* Trusted Bar - Hidden on Mobile */
     .trusted-bar {
-        position: relative !important;
-        bottom: auto !important;
-        left: auto !important;
-        width: 100% !important;
-        z-index: 10 !important;
-        margin-top: auto !important;
-        padding: 16px 14px !important;
-        background-color: rgba(17, 15, 14, 0.65) !important;
-        backdrop-filter: blur(20px) !important;
-        -webkit-backdrop-filter: blur(20px) !important;
+        display: none !important;
     }
 
     .trusted-title {
