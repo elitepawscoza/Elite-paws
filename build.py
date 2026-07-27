@@ -313,7 +313,7 @@ def get_head(title_suffix):
     <meta name="description" content="Premium luxury dog and cat breeder. Ethically raised, vet certified, and healthy pets for loving families.">
     <meta name="author" content="Elite Paws World">
     <link rel="icon" href="{LOGO_IMG}" type="image/x-icon">
-    <link rel="stylesheet" href="css/styles.css?v=220.0">
+    <link rel="stylesheet" href="css/styles.css?v=230.0">
 </head>
 <body>
 """
@@ -694,7 +694,7 @@ def build_homepage():
                         <circle cx="35.8" cy="32.8" r="1" fill="var(--color-primary)" stroke="none" />
                     </svg>
                     <h3 class="about-card-title">Ethically Raised</h3>
-                    <p class="about-card-desc">All our animals are raised in a spacious, clean, and loving family environment, with plenty of socialization from day one.</p>
+                    <p class="about-card-desc">All our puppies are raised in a spacious, clean, and loving family environment, with plenty of socialization from day one.</p>
                 </div>
                 <div class="about-card why-choose-card">
                     <svg width="72" height="72" viewBox="0 0 64 64" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: block; margin: 0 auto;">
