@@ -313,7 +313,7 @@ def get_head(title_suffix):
     <meta name="description" content="Premium luxury dog and cat breeder. Ethically raised, vet certified, and healthy pets for loving families.">
     <meta name="author" content="Elite Paws World">
     <link rel="icon" href="{LOGO_IMG}" type="image/x-icon">
-    <link rel="stylesheet" href="css/styles.css?v=90.0">
+    <link rel="stylesheet" href="css/styles.css?v=95.0">
 </head>
 <body>
 """

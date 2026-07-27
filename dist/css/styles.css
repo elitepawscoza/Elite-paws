@@ -1432,12 +1432,312 @@ textarea.form-control {
     font-size: 0.95rem;
 }
 
-.contact-form-panel {
+/* 8.5 Testimonials Showcase Section Base Styles */
+.reviews-showcase-section {
+    background-color: var(--color-bg-main);
+    padding: var(--spacing-xl) 0;
+}
+
+.dark-testimonials-box {
+    background-color: #0B0A09;
+    border-radius: 40px;
+    padding: 56px 48px 48px 48px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+    position: relative;
+    color: var(--color-white);
+}
+
+.dark-testimonials-header {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 48px;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 0 12px;
+}
+
+.testimonials-stat-block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.stat-big-number {
+    font-family: var(--font-headings);
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--color-gold);
+    line-height: 1;
+}
+
+.stat-ratings-wrap {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.avatar-bubbles {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-bubble {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid #0B0A09;
+    object-fit: cover;
+    margin-left: -12px;
+}
+
+.avatar-bubble:first-child {
+    margin-left: 0;
+}
+
+.ratings-text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.rating-stars-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.rating-value {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.green-stars {
+    color: #00B67A;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.rating-subtext {
+    font-size: 13px;
+    color: #A19B95;
+}
+
+.testimonials-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.testimonials-label {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-gold);
+}
+
+.dark-heading {
+    font-family: var(--font-headings);
+    font-size: 40px;
+    line-height: 1.25;
+    color: var(--color-white);
+    font-weight: 400;
+}
+
+.italic-serif {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.slider-container-relative {
+    position: relative;
+    width: 100%;
+}
+
+.reviews-slider-wrap {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding-bottom: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.reviews-slider-wrap::-webkit-scrollbar {
+    display: none;
+}
+
+.reviews-slider {
+    display: flex;
+    gap: 24px;
+    width: max-content;
+}
+
+.dark-card {
+    background-color: #191715;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 32px;
+    width: 380px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.dark-card-quote {
+    color: #E2DDD8;
+    font-size: 15px;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+.dark-card-author-block {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: auto;
+}
+
+.author-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--color-white);
+}
+
+.author-role {
+    font-size: 13px;
+    color: #9E968F;
+}
+
+.slider-controls-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.slider-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.slider-btn:hover {
+    background-color: var(--color-gold);
+    border-color: var(--color-gold);
+    color: #0B0A09;
+}
+
+/* 8.6 Frequently Asked Questions (FAQ Accordion) Base Styles */
+.faq-section {
+    background-color: var(--color-bg-alt);
+    padding: var(--spacing-xl) 0;
+}
+
+.faq-list {
+    max-width: 840px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faq-item {
     background-color: var(--color-white);
     border: 1px solid var(--color-border);
-    border-radius: var(--radius-md);
-    padding: var(--spacing-lg);
-    box-shadow: var(--shadow-medium);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: border-color 300ms ease, box-shadow 300ms ease;
+}
+
+.faq-item:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.04);
+}
+
+.faq-question {
+    padding: 24px 32px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    font-family: var(--font-headings);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-headings);
+    text-align: left;
+    cursor: pointer;
+    transition: color 300ms ease;
+}
+
+.faq-item.active .faq-question {
+    color: var(--color-primary);
+}
+
+.faq-icon {
+    font-size: 24px;
+    color: var(--color-primary);
+    transition: transform 300ms ease;
+    line-height: 1;
+    font-weight: 300;
+}
+
+.faq-item.active .faq-icon {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 300ms ease, padding 300ms ease;
+    padding: 0 32px;
+    color: var(--color-text-main);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 300px;
+    padding-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+    .faq-question {
+        padding: 18px 20px;
+        font-size: 17px;
+    }
+    .faq-answer {
+        padding: 0 20px;
+        font-size: 15px;
+    }
+    .faq-item.active .faq-answer {
+        padding-bottom: 20px;
+    }
 }
 
 /* 9. Footer Section */
